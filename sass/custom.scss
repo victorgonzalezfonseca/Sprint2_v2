@@ -1,0 +1,34 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$danger: #a1a1a1;
+$dark: #535252;
+$info: #ffffff;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger,
+  "dark": $dark,
+  "info": $info
+  );
+
+
+  
+   @media (max-width: 767.98px) { 
+    #downloads>div:nth-child(2) {
+        height: auto !important;
+        }
+    }
+
+    #nav-tab > .active {
+        border-bottom: 5px solid #fa5959;
+    }
+
+    #nav-tab > button:hover {
+        color: #fa5959 !important;
+    }
+   
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
